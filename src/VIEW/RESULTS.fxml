@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../CSS/STYLE.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/BG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/GREENBG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/PARAMETERS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/BODY%20PARAMETERS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/YOUR%20RESULTS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/BMI%20TABLE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/HISTORY.png" />
+         </image>
+         <styleClass>
+            <String fx:value="translucent" />
+            <String fx:value="hand-cursor" />
+         </styleClass>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/RESULTS/RESULTS.png" />
+         </image>
+      </ImageView>
+      <Text fill="#202020" layoutX="1034.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="custom-text" text="00.0">
+         <font>
+            <Font name="Arial Black" size="96.0" />
+         </font>
+      </Text>
+      <Text fill="#202020" layoutX="1025.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Normal">
+         <font>
+            <Font name="Arial Black" size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#202020" layoutX="1214.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00.0">
+         <font>
+            <Font name="Arial Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="#202020" layoutX="1025.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Healthy">
+         <font>
+            <Font name="Arial Bold" size="34.0" />
+         </font>
+      </Text>
+      <Button layoutX="1302.0" layoutY="926.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="324.0" styleClass="custom-button5" text="Add to History">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font></Button>
+      <Button layoutX="317.0" layoutY="926.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="324.0" styleClass="custom-button2" text="Retry">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="1825.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="—">
+         <font>
+            <Font name="Baskerville Old Face" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button7" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="68.0" layoutX="191.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" styleClass="custom-rectangle" width="605.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="68.0" layoutX="191.0" layoutY="472.0" stroke="BLACK" strokeType="INSIDE" styleClass="custom-rectangle" width="605.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="68.0" layoutX="191.0" layoutY="644.0" stroke="BLACK" strokeType="INSIDE" styleClass="custom-rectangle" width="605.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="68.0" layoutX="191.0" layoutY="816.0" stroke="BLACK" strokeType="INSIDE" styleClass="custom-rectangle" width="605.0" />
+      <Text fill="#e0e0e0" layoutX="391.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#e0e0e0" layoutX="441.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="000" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#e0e0e0" layoutX="457.0" layoutY="694.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#e0e0e0" layoutX="457.0" layoutY="866.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="1870.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="X">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button6" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

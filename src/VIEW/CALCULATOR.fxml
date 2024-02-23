@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../CSS/STYLE.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER.CALCULATORCONTROLLER">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/CALCULATOR/BG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" styleClass="fade-in">
+         <image>
+            <Image url="@../PICTURES/CALCULATOR/TITLE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/CALCULATOR/GREENBG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/CALCULATOR/BODYPARAMETERS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../PICTURES/CALCULATOR/PARAMETERS.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="1099.0" layoutY="451.0" prefHeight="74.0" prefWidth="683.0" promptText="cm">
+         <styleClass>
+            <String fx:value="text-field-with-bottom-border" />
+            <String fx:value="text-field-with-prompt" />
+         </styleClass>
+         <font>
+            <Font name="Arial Narrow Italic" size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="1099.0" layoutY="634.0" prefHeight="74.0" prefWidth="683.0" promptText="kg">
+         <styleClass>
+            <String fx:value="text-field-with-bottom-border" />
+            <String fx:value="text-field-with-prompt" />
+         </styleClass>
+         <font>
+            <Font name="Arial Narrow Italic" size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="1099.0" layoutY="817.0" prefHeight="74.0" prefWidth="683.0" promptText="yrs">
+         <styleClass>
+            <String fx:value="text-field-with-bottom-border" />
+            <String fx:value="text-field-with-prompt" />
+         </styleClass>
+         <font>
+            <Font name="Arial Narrow Italic" size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1482.0" layoutY="280.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="322.0" text="Female">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button1" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1077.0" layoutY="280.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="322.0" text="Male">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button1" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1280.0" layoutY="946.0" mnemonicParsing="false" onAction="#switchToAnotherScene" prefHeight="64.0" prefWidth="322.0" text="Calculate">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button2" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1870.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="X">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button3" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1825.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="—">
+         <font>
+            <Font name="Baskerville Old Face" size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="custom-button4" />
+            <String fx:value="translucent" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>
